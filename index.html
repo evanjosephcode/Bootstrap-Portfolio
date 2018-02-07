@@ -20,7 +20,6 @@
     color: white;
   }
 
-
   h2 {
     color: #4aaaa5;
   }
@@ -57,7 +56,7 @@
 
   }
 
-  .panel.panel-defaul {
+  .panel.panel-default {
     background-color: white;
     color: #777777;
     border: 5px solid #dddddd;
@@ -74,6 +73,16 @@
     color: #4aaaa5;
   }
 
+   @media (max-width: 991px){
+    .panel.panel-default {
+      margin-top: 20px;
+      margin-bottom: 110px;
+    }
+
+    .evan {
+      text-align: center;
+    }
+
 	</style>
 
 </head>
@@ -85,13 +94,11 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#"><p class="name">Evan Seaman</p></a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right text-center">
             <li><a href="#">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div>
       </div>
   </nav>
 
@@ -102,7 +109,7 @@
             <h2>About Me</h2>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center">
               <img src="assets/images/evan.jpeg" alt="Evan Seaman" class="img-thumbnail">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-9">
@@ -124,13 +131,13 @@
               </div>
               <div class="row">
                 <div class="panel-body">
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                   <img src="assets/images/github.jpg" alt="Github" class="img-thumbnail">
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                   <img src="assets/images/linkedin.jpg" alt="Linkedin" class="img-thumbnail">
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                   <img src="assets/images/stack.jpg" alt="Stack Overflow" class="img-thumbnail">
                   </div>
                 </div>

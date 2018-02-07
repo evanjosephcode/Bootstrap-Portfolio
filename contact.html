@@ -56,7 +56,7 @@
 
   }
 
-  .panel.panel-defaul {
+  .panel.panel-default {
     background-color: white;
     color: #777777;
     border: 5px solid #dddddd;
@@ -83,6 +83,15 @@
     color: #4aaaa5;
   }
 
+  @media (max-width: 991px) {
+    .panel.panel-default {
+      margin-top: 20px;
+      margin-bottom: 110px;
+    }
+
+    
+
+  }
 
 	</style>
 
@@ -95,13 +104,11 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#"><p class="name">Evan Seaman</p></a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right text-center">
             <li><a href="index.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </div>
       </div>
   </nav>
 
@@ -142,13 +149,13 @@
               </div>
               <div class="row">
                 <div class="panel-body">
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                     <img src="assets/images/github.jpg" alt="Github" class="img-thumbnail">
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                     <img src="assets/images/linkedin.jpg" alt="Linkedin" class="img-thumbnail">
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                     <img src="assets/images/stack.jpg" alt="Stack Overflow" class="img-thumbnail">
                   </div>
                 </div>
